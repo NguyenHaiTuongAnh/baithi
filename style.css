@@ -190,6 +190,7 @@ hr.white {
 	display: flex;
 	justify-content: space-between;
 }
+
 #myBtn {
 display: none;
 position: fixed;
@@ -211,11 +212,22 @@ opacity: 0.7;
 		flex-direction: column;
 		text-align: center;
 	}
+	.col-md-4 img{
+		width: 40%;
+		text-align: center
+	}
 	.header{
 		height: 200px;
 	}
 	h5{
-		display:none
+		display: none;
+	}
+	.banner2-btn{
+		width: 100px;
+		height: 50px;
+		padding: 0;
+		line-height: 15px;
+		font-size: 10px;
 	}
 	.banner2_content h4{
 		font-size: 30px !important;
