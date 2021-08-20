@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	height: 1000px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+/*	background: url(https://images.unsplash.com/photo-1626370413668-61f6e26e4e74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80);*/
+/*
+	background-size: contain;
+	background-repeat: no-repeat;
+*/
+}
+.logo{
+	width: 220px;
+}
+.header .container .header-nav {
+    padding: 5px 0 !important;
+}
+.header .container .header-nav_logo {
+    font-weight: 600;
+    font-size: 30px;
+}
+.header .container .header-nav_link-items {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+.header .container .header-nav_link .active {
+    color: darkblue !important;
+}
+.header .container .header-banner {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+}
+
+.header .container .header-banner_title {
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+.header-banner_content{
+	font-size: 15px;
+}
+
+.features-post .TNSM {
+    height: 45px;
+}
+
+.features-post_title {
+    font-size: 32px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.features-post_title p::after {
+    content: ' Me';
+    font-weight: 600;
+}
+
+.features-post_textbox h4 {
+	padding-top: 30px;
+    text-transform: capitalize;
+}
+
+.features-post_textbox hr {
+    width: 50px;
+    border-top: 2px solid #6462C2;
+}
+.hr{
+	padding-left: 45%;
+	padding-right: 45%;
+	box-sizing: border-box;
+}
+.features-post_textbox p {
+    color: #6f6f6f;
+    font-weight: 400;
+}
+
+.features-post_textbox-btn {
+    display: flex;
+    align-items: center;
+}
+
+.features-post_textbox-btn a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+
+.features-post_textbox-btn ion-icon {
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.features-post_textbox-btn:hover ion-icon,
+.features-post_textbox-btn:hover a {
+    color: #6462c2;
+    text-decoration: none;
+}
+
+.banner2{
+	background-color: lightskyblue;
+	height: 250px;
+	padding: 25px;
+	line-height: 30px;
+}
+.banner2-btn{
+	background-color: white;
+	border: 2px  solid rgba(255,255,255,1.00);
+	color: lightskyblue;
+	font-weight: 700;
+	padding: 10px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	
+}
+.col-8 p{
+	line-height: 30px;
+}
+.Services-post_title{
+    font-size: 32px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.Services-post_title p::after {
+    content: ' Services';
+    font-weight: 600;
+}
+.col-md-4 img{
+	padding-top: 80px;
+	padding-left: 25px;
+	box-sizing: border-box;	
+}
+.Touch-post_title{
+    font-size: 32px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.Touch-post_title p::after {
+    content: ' Touch';
+    font-weight: 600;
+}
+button{
+	padding-right: 50px;
+}
+.carousel-caption h5{
+	font-size: 40px;
+	line-height: 850px;
+}
+.my-element {
+	display: inline-block;
+	margin: 0 0.5rem;
+	animation: bounce; 
+	animation-duration: 2s;
+	animation-delay: 5s;
+}
+hr.white {
+    border: 0;
+	border-top: 1px solid #ffffff;
+}
+.Porfolio-post_title{
+    font-size: 32px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.Porfolio-post_title p::after {
+    content: ' Porfolio';
+    font-weight: 600;
+}
+.footer{
+	height: 30px;
+	background-color: lightskyblue;
+	line-height: 30px;
+	font-family: 'Koho',sans-serif;
+}
+.contact{
+	display: flex;
+	justify-content: space-between;
+}
+#myBtn {
+display: none;
+position: fixed;
+bottom: 60px;
+right: 10px;
+z-index: 99;
+border: none;
+outline: none;
+background-color: #fff;
+color: white;
+cursor: pointer;
+border-radius: 30px;
+opacity: 0.7;
+}
+
+/* Mobile:width < 740px */
+@media  only screen and (max-width:  46.1875rem){
+	.features-post{
+		flex-direction: column;
+		text-align: center;
+	}
+	.header{
+		height: 200px;
+	}
+	.banner2_content h4{
+		font-size: 30px !important;
+	}
+	.banner2_content p,.banner2_content hr{
+		display: none	
+	}
+	.row1 .por1 img, .por2 img, .por3 img{
+		justify-content: center;
+		width: 300px;
+	}
+	#myBtn {
+		opacity: 0.2
+	}
+}
