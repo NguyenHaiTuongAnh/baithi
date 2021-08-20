@@ -212,7 +212,10 @@ opacity: 0.7;
 		text-align: center;
 	}
 	.header{
-		height: 100px;
+		height: 200px;
+	}
+	h5{
+		display:none
 	}
 	.banner2_content h4{
 		font-size: 30px !important;
